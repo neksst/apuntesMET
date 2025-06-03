@@ -1,0 +1,21 @@
+Transicion de estados: 
+Representa la vista dinamica(comportamental) del sistema
+Son una maquina de estados
+
+Estado: Condicion o una situacion durante la vida de un objeto durante el cual cumple con alguna condicion, realiza una actividad o espera por algun evento
+Evento: Ocuerrencia que puede provocar un cambio de estado
+Actividad: Ejecucion computacional no atomica dentro de una maquina de estados
+Accion: es una ejecucion computacional atomica
+
+El estado se compone por: nombre, acciones de entrada y salida, transiciones internas, subestados.
+
+Transicion se compone por: Estado inical, evento que se dispara, guarda, accion, estado final.
+
+Diag de Deployment:
+
+Modelan la topologia del hardware en el cual se ejecuta el sistema
+Nodos: Elemento fisico/virtual que existe en tiempo de ejecucion. Representa un recurso computacional. tiene algun tipo de memoria y capacidad de procesamiento
+
+
+Diagrama de Componentes:Un diagrama de componentes representa cómo un sistema de software es dividido en componentes y muestra las dependencias entre estos componentes. Los componentes físicos incluyen archivos, cabeceras, bibliotecas compartidas, módulos, ejecutables, o paquetes. Los diagramas de Componentes prevalecen en el campo de la arquitectura de software pero pueden ser usados para modelar y documentar cualquier arquitectura de sistema.
+En él se situarán librerías, tablas, archivos, ejecutables y documentos que formen parte del sistema.

@@ -1,0 +1,24 @@
+Representa la vista dinamica (Comportamental) del sistema 
+Es un diagrama de flujo entre actividades
+Puede ser(3) : secuencial - con ramas - concurrente
+
+Para que sirve: 
+Describir workflows (estructuras de las tarea, como se realizanm, cual es su orden)
+Identificar dependencias entre actividades
+Apoyar visualmente la especificacion de un caso de uso
+
+
+Componenes: 
+	Actividad: - una tarea que necesita realizarse <<RECTANGULO>>
+	
+	Transmision(Flujo): - Indica el flujo de control de un actividad a la siguiente << ------> flecha>>
+
+	Estado inicial: indica cual es la actividad inicial <<CIRCULO NEGRO>>
+
+	Estado funal: indica el cuando termina el flujo de actividades. puede haber mas de uno << CIRCULO NEGRO DENTRO DE UN ARO>> 
+	
+	Branch: indica la decision del flujo de control cuande debe tomarse una decision
+	
+	Guarda: condicion de cada flujo de salida de un branch
+
+	Merge: junta diferentes flujos en uno solo
